@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="fundoCalc">
+        <div class="calc">
+            <div class="inputNum">
+                <input type="text" placeholder="0">
+            </div>
+            <div class="operacoesV">
+                <button id="soma" type="button" onclick="soma()">+</button>
+                <button id="sub" type="button" onclick="sub()">-</button>
+                <button id="mult" type="button" onclick="mult()">x</button>
+                <button id="divs" type="button" onclick="divs()">÷</button>
+                <button id="clean" type="button" onclick="clean()">C</button>
+            </div>
+            <div class="numIresult">
+                <div class="numeros">
+                    <button id="nove">9</button>
+                    <button id="oito">8</button>
+                    <button id="sete">7</button>
+                    <button id="seis">6</button>
+                    <button id="cinco">5</button>
+                    <button id="quatro">4</button>
+                    <button id="tres">3</button>
+                    <button id="dois">2</button>
+                    <button id="um">1</button>
+                    <button id="zero">0</button>
+                </div>
+                <div class="resultBtn">
+                    <button id="resultaBtn" type="button" onclick="mostraRes()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
